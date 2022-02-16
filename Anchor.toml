@@ -1,0 +1,12 @@
+[programs.devnet]
+who_is_king = "D3vLgy2e7MYRgsH4Q4vSxyUrRkpykad1yoids7d9WWne"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
